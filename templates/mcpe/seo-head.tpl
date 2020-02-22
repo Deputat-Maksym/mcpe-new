@@ -1,4 +1,4 @@
-<div class="news-link">
+<div class="seo-block">
 <span class="just-news">О портале</span>
 <h2 class="news-log">Портал MCPE-NEW.RU приветствует вас!</h2>
 <div class="description wrap">Добро пожаловать на один из самых популярных порталов, посвященных игре Minecraft Pocket Edition. Вы найдете тут массу полезной информации касаемо своей любимой игры:
