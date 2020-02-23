@@ -124,21 +124,26 @@ line-height: 18px;
 text-align: center;
 font-family: sf-ui-text-regular;
 }</style>
+
 <div class="news-link">
 <span class="just-news"><span class="masha_index masha_index1" rel="1"></span>{category}</span>
 <h3 class="news-log"><span class="masha_index masha_index2" rel="2"></span> {title}</h3>
 <div class="poster">
 <img class="xfieldimage foto" src="{image-1}" alt="{title}">
 </div>
-<p>
-<a href="/mcpe-beta/9-minecraft-1-15-0-51.html" class="btn-view"><span class="ic-sx22"></span><span class="masha_index masha_index18" rel="18"></span> NEW MCPE!</a>
+
 [edit]<span class="time-data">Изменить</span>[/edit]
-<span class="time-data">{date}</span>
-<span class="time-data">Просмотров: {views}</span>
-<span class="time-data">Автор: {author}</span></p><br /><br />
+<div class="meta-data meta-data--full">
+    <span class="">{date}</span>
+    <span class="">Просмотров: {views}</span>
+    <span class="">Автор: {author}</span>
+</div>
+<a href="/mcpe-beta/9-minecraft-1-15-0-51.html" class="btn-view btn-view--full"><span class="ic-sx22"></span><span class="masha_index masha_index18" rel="18"></span> NEW MCPE!</a>
+    
 <p class="description">
 {full-story}
-[xfgiven_link]<div class="download-item border-radius" style="overflow: hidden;">
+[xfgiven_link]
+<div class="download-item border-radius" style="overflow: hidden;">
 <div class="item-content">
 <span class="flex middle center">Скачать Minecraft (последняя версия)</span>
 <div class="flex-sm middle-sm">
@@ -147,5 +152,6 @@ font-family: sf-ui-text-regular;
 </a>
 </div>
 </div>
-</div>[/xfgiven_link]</p>
+</div>
+[/xfgiven_link]
 </div>

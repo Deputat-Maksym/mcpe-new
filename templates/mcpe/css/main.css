@@ -17,6 +17,7 @@ font-family: 'ProximaNova', sans-serif;
 background: #09b66db8 url(../img/pattern.png) repeat;
 color: #828282;
 font-weight:300;
+overflow-x: hidden;
 }
 ::-moz-selection {
 background: #b3d4fc;
@@ -1552,8 +1553,10 @@ transition: .5s;
 	a.btn-startgames {
 		float: none;
 		margin-left: 0;
-		font-size: 14px;
-		width: 145px;
+		font-size: 13px;
+		width: 130px;
+		overflow: hidden;
+		padding: 0 5px;
 	}
 }
 .pmCounter {
@@ -1590,7 +1593,7 @@ float: left;
 
 @media only screen and (max-width: 767px) {
 	.logo {
-		max-width: 120px;
+		max-width: 110px;
 		margin: 0 8px 0 0;
 	}
 }
@@ -1615,3 +1618,4 @@ float: left;
 .hidden-screen {
 	overflow: hidden;
 }
+

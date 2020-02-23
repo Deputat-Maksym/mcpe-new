@@ -52,14 +52,14 @@
                 <div id="right">
                     <!-- RIGHT -->
                     {login}
-                    {include file="sidebar.tpl"}                    
+                    {include file="sidebar.tpl"}
                     <!-- /RIGHT -->
                 </div>
                 <div id="left">
                     <!-- LEFT -->
 
                     <!-- slider -->
-                     [static=main]{include file="slider.tpl"}{custom categoty="1"}[/static]                   
+                     [static=main]{include file="slider.tpl"}{custom categoty="1"}[/static]
                     <!-- /slider -->
                     <div id='dle-content'>
                         {content}{info}

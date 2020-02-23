@@ -10,7 +10,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="128x128" href="https://mcpe-new.ru/favicon.ico">
   <meta property="og:image" content="{THEME}/img/logo.png?v=1">
   <link rel="stylesheet" href="{THEME}/icons/icomoon.css">
-  <link rel="stylesheet" href="{THEME}/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{THEME}/css/bootstrap.min_4.4.1.css">
   <link rel="stylesheet" href="{THEME}/css/ui.css">
   <link rel="stylesheet" href="{THEME}/css/plugins.css">
   <link rel="stylesheet" href="{THEME}/css/main.css?=v1.0">
@@ -19,7 +19,6 @@
   <link rel="stylesheet" href="{THEME}/css/engine.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="{THEME}/css/mobile-styles.css">
   <script src="{THEME}/js/bootstrap.bundle.js" type="text/javascript"></script>
   <script src="{THEME}/js/popper.js" type="text/javascript"></script>
   <script type="text/javascript">
@@ -57,7 +56,7 @@
   }</style>
 <div class="page-content">
   <nav id="main-nav" class="main-nav">
-    <div class="container">
+    <div class="container-xl">
       <div class="row">
         <div class="col">
           <div class="nav-header d-flex justify-content-between align-items-center">
@@ -113,14 +112,16 @@
     </div>
   </nav>
   <!--{include file="top.tpl"}-->
-  <div class="container main-container">
+  <div class="container-xl main-container">
     <div class="row">
-      <div class="col-lg-9 col-md-9">
+      <div class="col-lg-8 col-xl-9">
           {info}
         [available=cat]
         <div class="news-link">{category-description}</div>
         [/available]
+        <div class="content-grid clearfix">
           {content}
+        </div>
         [available=main]{include file="seo-foot.tpl"}[/available]
       </div>
         {include file="right.tpl"}
