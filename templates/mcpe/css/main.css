@@ -123,6 +123,41 @@ transition:padding .4s, background-color .8s, box-shadow .35s;
 	}
 }
 
+.main-nav .nav-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.grid-style {
+	display: flex;
+	margin: 0 0 6px;
+}
+
+.grid-style button {
+	width: 32px;
+	height: 32px;
+	margin: 0 15px 0 0;
+	border: none;
+	outline: none;
+	padding: 0;
+}
+.grid-style button:last-child {
+	margin: 0;
+}
+
+
+.grid-btn {
+	background: url("../img/grid.png") no-repeat;
+	background-size: contain;
+}
+
+.list-btn {
+	background: url("../img/list.png") no-repeat;
+	background-size: contain;
+}
+
 .logo-img,
 .alt-logo-img {
 height: 70px;

@@ -27,6 +27,15 @@ jQuery(document).ready(function ($) {
         $(this).find($('.sandwich')).toggleClass('active');
         $('.nav-wrap').toggleClass('open');
         $('html, body').toggleClass('hidden-screen')
+    });
+
+    /*-----------articles grid toggling lines/grid--------------*/
+    $('.list-btn').on('click', function() {
+        $('.content-grid').addClass('content-grid--list');
+    });
+
+    $('.grid-btn').on('click', function() {
+        $('.content-grid').removeClass('content-grid--list');
     })
 });
 (function ($) {

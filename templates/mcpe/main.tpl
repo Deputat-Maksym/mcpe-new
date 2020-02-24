@@ -106,6 +106,10 @@
             </ul>
             [group=5]<a href="/index.php?do=register" class="btn-login pulse btn-login--mob" title="Перейти на страницу регистрации"><span
                       class="ic-sx21"></span> Регистрация</a>[/group]
+            <div class="grid-style">
+              <button class="list-btn"></button>
+              <button class="grid-btn"></button>
+            </div>
           </div>
         </div>
       </div>
