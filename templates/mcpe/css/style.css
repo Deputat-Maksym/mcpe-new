@@ -2603,3 +2603,41 @@ span {
 	-webkit-box-orient: unset;
 	-webkit-line-clamp: unset;
 }
+
+#NavDownloadContainer #NavDownloadSlider {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding: 14px 8px;
+	margin-bottom: 0;
+	text-align: center;
+	white-space: nowrap;
+	background: #fff linear-gradient(90deg,rgba(2,184,117,0.55) 0%,rgba(255,255,255,0) 10%,rgba(255,255,255,1) 90%,rgba(2,184,117,0.55) 100%);
+}
+
+#NavDownloadContainer #NavDownloadSlider a {
+	padding: 6px 9px;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bdbdbd;
+	display: inline-block;
+}
+
+#NavDownloadContainer #NavDownloadSlider a:first-child {
+	color: #02b875;
+}
+
+#NavDownloadSlider .selectFull {
+	border: 2px solid #8ce8c6;
+	border-radius: 3px;
+}
+
+#NavDownloadSlider .icon-format {
+	background-image: url(../img/icons-base.png);
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: text-top;
+	background-repeat: no-repeat;
+	margin-right: 4px;
+}

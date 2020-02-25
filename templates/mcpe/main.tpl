@@ -118,6 +118,30 @@
   <!--{include file="top.tpl"}-->
   <div class="container-xl main-container">
     <div class="row">
+      <div class="col">
+        <div id="NavDownloadContainer">
+          <div id="NavDownloadSlider">
+            <a href="#" style="padding-top:0px;position:relative;top:7px;" title="Список версий">Выбери<br>версию</a>
+            <a class="selectFull" style="border-style:dashed;" href="#" title=""><span class="icon-format size16" style="background-position: -32px -16px;"></span>1.15 БЕТА</a>
+            <a class="selectFull" href="" title=""><span class="icon-format size16" style="background-position: 0px 0px;"></span>1.14 ПОЛНАЯ</a>
+            <a href="#" title="Обновление с лисами"><span class="icon-format size16" style="background-position: -16px 0px;"></span>1.13</a>
+            <a href="#" title="Обновление для разработчиков аддонов"><span class="icon-format size16" style="background-position: -32px 0px;"></span>1.12</a>
+            <a href="#" title="Третья часть Village and Pillage"><span class="icon-format size18" style="background-position: 0px -32px;"></span>1.11</a>
+            <a href="#" title="Вторая часть Village and Pillage"><span class="icon-format size16" style="background-position: -48px 0px;"></span>1.10</a>
+            <a href="#" title="Первая часть Village and Pillage"><span class="icon-format size16" style="background-position: -64px 0px;"></span>1.9</a>
+            <a href="#" title="Обновление с пандами"><span class="icon-format size16" style="background-position: -80px 0px;"></span>1.8</a>
+            <a href="#" title="Обновление со scoreboard"><span class="icon-format size16" style="background-position: -96px 0px;"></span>1.7</a>
+            <a href="#" title="Обновление с фантомами"><span class="icon-format size16" style="background-position: -112px 0px;"></span>1.6</a>
+            <a href="#" title="Вторая часть Aquatic Update"><span class="icon-format size16" style="background-position: -128px 0px;"></span>1.5</a>
+            <a href="#" title="Первая часть Aquatic Update"><span class="icon-format size16" style="background-position: -144px 0px;"></span>1.4</a>
+            <a href="#" title="Обновление Вместе лучше"><span class="icon-format size16" style="background-position: -160px 0px;"></span>1.2</a>
+            <a href="#" title="Исследовательское обновление"><span class="icon-format size16" style="background-position: 0px -16px;"></span>1.1</a>
+            <a href="#" title="Добавление измерения Край"><span class="icon-format size16" style="background-position: -16px -16px;"></span>1.0</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-lg-8 col-xl-9">
           {info}
         [available=cat]
