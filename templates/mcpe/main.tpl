@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="{THEME}/css/bootstrap.min_4.4.1.css">
   <link rel="stylesheet" href="{THEME}/css/ui.css">
   <link rel="stylesheet" href="{THEME}/css/plugins.css">
+  <link rel="stylesheet" href="{THEME}/css/jquery.custom-scrollbar.css">
   <link rel="stylesheet" href="{THEME}/css/main.css?=v1.0">
   <link rel="stylesheet" href="{THEME}/css/style.css?=v38">
   <link rel="stylesheet" href="{THEME}/dist/css/swiper.min.css">
@@ -120,8 +121,8 @@
     <div class="row">
       <div class="col">
         <div id="NavDownloadContainer">
-          <div id="NavDownloadSlider">
-            <a href="#" style="padding-top:0px;position:relative;top:7px;" title="Список версий">Выбери<br>версию</a>
+          <div id="NavDownloadSlider" class="default-skin">
+            <a href="#" style="padding-top:0px;position:relative;top:7px;line-height:1.1;" title="Список версий">Выбери<br>версию</a>
             <a class="selectFull" style="border-style:dashed;" href="#" title=""><span class="icon-format size16" style="background-position: -32px -16px;"></span>1.15 БЕТА</a>
             <a class="selectFull" href="" title=""><span class="icon-format size16" style="background-position: 0px 0px;"></span>1.14 ПОЛНАЯ</a>
             <a href="#" title="Обновление с лисами"><span class="icon-format size16" style="background-position: -16px 0px;"></span>1.13</a>
@@ -227,6 +228,7 @@
 <script src="{THEME}/js/circle-progress.js" type="text/javascript"></script>
 <script src="{THEME}/js/examples.js" type="text/javascript"></script>
 <script src="{THEME}/js/vendor/modernizr-3.5.0.min.js" type="text/javascript"></script>
+<script src="{THEME}/js/jquery.custom-scrollbar.min.js" type="text/javascript"></script>
 <script src="{THEME}/js/main.js" type="text/javascript"></script>
 <script> if ($('.wrap').length) {
         $('.wrap').each(function (e) {

@@ -158,6 +158,12 @@ transition:padding .4s, background-color .8s, box-shadow .35s;
 	background-size: contain;
 }
 
+@media only screen and (max-width: 575) {
+	.grid-style {
+		display: none;
+	}
+}
+
 .logo-img,
 .alt-logo-img {
 height: 70px;
@@ -1652,5 +1658,9 @@ float: left;
 
 .hidden-screen {
 	overflow: hidden;
+}
+
+.scrollable.default-skin .scroll-bar .thumb {
+	bottom: -4px;
 }
 

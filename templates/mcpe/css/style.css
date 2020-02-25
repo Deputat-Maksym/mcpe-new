@@ -2605,13 +2605,14 @@ span {
 }
 
 #NavDownloadContainer #NavDownloadSlider {
-	overflow-x: scroll;
-	overflow-y: hidden;
-	padding: 14px 8px;
+	max-width: 100%;
+	height: 65px;
+	padding: 4px 8px 14px;
 	margin-bottom: 0;
 	text-align: center;
 	white-space: nowrap;
-	background: #fff linear-gradient(90deg,rgba(2,184,117,0.55) 0%,rgba(255,255,255,0) 10%,rgba(255,255,255,1) 90%,rgba(2,184,117,0.55) 100%);
+	border-radius: 6px;
+	background: #fff;
 }
 
 #NavDownloadContainer #NavDownloadSlider a {

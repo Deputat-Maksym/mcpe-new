@@ -56,4 +56,11 @@ jQuery(document).ready(function ($) {
         $(table2).find("." + column).removeClass('hov-column-' + verTable);
         $(table1).find(".row100.head ." + column).removeClass('hov-column-head-' + verTable);
     });
+
+    /*Custom scrollbar init*/
+    $("#NavDownloadSlider").customScrollbar({
+        vScroll: false,
+        updateOnWindowResize: true
+    });
 })(jQuery);
+
