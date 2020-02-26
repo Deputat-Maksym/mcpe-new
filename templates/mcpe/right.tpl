@@ -1,4 +1,4 @@
-<div class="col-lg-4 col-xl-3 aside-col">
+<div class="col-lg-4 col-xl-3 aside-col mt-3">
     <div class="row">
         <div class="col-sm-6 col-lg-12">
             {login}

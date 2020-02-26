@@ -143,7 +143,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8 col-xl-9">
+      <div class="col-lg-8 col-xl-9 mt-3">
           {info}
         [available=cat]
         <div class="news-link">{category-description}</div>

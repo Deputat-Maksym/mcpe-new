@@ -135,12 +135,16 @@ font-family: sf-ui-text-regular;
 [edit]<span class="time-data">Изменить</span>[/edit]
 <div class="meta-data meta-data--full">
     <span class="">{date}</span>
-    <span class="">Просмотров: {views}</span>
-    <span class="">Автор: {author}</span>
+    <span class="views">{views}</span>
+    <span class="author">{author}</span>
 </div>
 <a href="/mcpe-beta/9-minecraft-1-15-0-51.html" class="btn-view btn-view--full"><span class="ic-sx22"></span><span class="masha_index masha_index18" rel="18"></span> NEW MCPE!</a>
-    
+
 <p class="description">
+    <div class="mark_text">
+        Файлы в конце статьи. Посмотрите обзор обновления и подпишитесь на наш
+        <a href="#" target="_blank">YouTube-канал</a>.
+    </div>
 {full-story}
 [xfgiven_link]
 <div class="download-item border-radius" style="overflow: hidden;">
