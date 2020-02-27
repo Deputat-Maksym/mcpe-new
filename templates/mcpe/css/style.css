@@ -2564,6 +2564,10 @@ span {
 	justify-content: flex-start;
 }
 
+.meta-data--full a:hover {
+	text-decoration: none;
+}
+
 .meta-data--full span {
 	margin: 0 15px 0 0;
 }
@@ -2744,4 +2748,13 @@ span {
 	vertical-align: text-top;
 	background-repeat: no-repeat;
 	margin-right: 4px;
+}
+
+.edit_btn {
+	padding: 5px 6px;
+	margin: 0 10px 0 0 !important;
+	font-size: 1rem;
+	border: 1px solid #828282;
+	border-radius: 3px;
+	color: #828282;
 }

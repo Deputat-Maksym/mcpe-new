@@ -132,8 +132,8 @@ font-family: sf-ui-text-regular;
 <img class="xfieldimage foto" src="{image-1}" alt="{title}">
 </div>
 
-[edit]<span class="time-data">Изменить</span>[/edit]
 <div class="meta-data meta-data--full">
+    [edit]<span class="edit_btn">Изменить</span>[/edit]
     <span class="">{date}</span>
     <span class="views">{views}</span>
     <span class="author">{author}</span>
