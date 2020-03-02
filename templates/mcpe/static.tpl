@@ -1,6 +1,4 @@
-<span class="name-rog">
-<div class="hr-line"></div>
-{description}
-</span>
-<br>
-{static}
+<div class="seo-block">
+<h1 class="just-news">{description}</h1>
+<div class="description">
+    {static}</div></div>

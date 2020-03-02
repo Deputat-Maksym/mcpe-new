@@ -16,7 +16,7 @@
 </div>
 [/group]
 [not-group=5]
-<div class="right-block vk" style="height: 525px;">
+<div class="right-block vk">
 <div class="n-m">Ваш Аккаунт</div>
 <div class="droptopbar loggedpane" id="loginpane">
 <div class="wrp">
@@ -27,27 +27,15 @@
 Привет,<br>
 <a href="{profile-link}"><b>{login}</b></a>!
 </div>
-<ul class="login_menu" style="padding-top: 0px;">
-<li style="border-bottom: 1px solid #eee; padding-top: 15px; padding-bottom: 15px;">
-<a href="#" class="tooltipped" data-position="bottom" data-tooltip="I am a tooltip"><b class="lm_num"><i class="fas fa-coins" style="color:#03ba75"></i></b> Баланс: <b>{money}</b> золота </a>
-</li>
-<li style=" padding-top: 15px;">
-<a href="/cabinet"><b class="lm_num"><i class="fas fa-user-cog" style="color:#03ba75"></i></b>Личный кабинет <span style="color: red;font-size: 12px;">(скидки)</span></a>
+<ul class="login_menu" style="padding-top: 0px;text-align: center;">
+[group=1]<li style=" padding-top: 15px;">
+<a href="/admin.php">Личный кабинет</a>
+</li>[/group]
+<li>
+<a href="{pm-link}">Сообщения</a>
 </li>
 <li>
-<a href="{pm-link}"><b class="lm_num"><i class="far fa-comments" style="width:19px;margin-left:1px;color:#03ba75"></i></b>Сообщения <span style="font-size: 11px;">( новых: <span style="color:#4695ed">{new-pm}</span> )</span></a>
-</li>
-<li>
-<a href="{profile-link}"><b class="lm_num"><i class="fas fa-cogs" style="color:#03ba75"></i></b>Настройки</a>
-</li>
-<li>
-<a href="/referal"><b class="lm_num"><i class="fas fa-users" style="color:#03ba75"></i></b>Пригласить друга</a>
-</li>
-<li>
-<a href="/help"><b class="lm_num"><i class="fas fa-headset" style="color:#03ba75"></i></b> Помощь </a>
-</li>
-<li>
-<a href="/donates"><b class="lm_num"><i class="fas fa-shopping-cart" style="color:#03ba75"></i></b> Донат</a>
+<a href="{profile-link}">Настройки</a>
 </li>
 </ul>
 <div class="login_form_links">
