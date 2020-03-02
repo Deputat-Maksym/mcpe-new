@@ -2600,8 +2600,21 @@ background-size: contain;
 .mark_down a {
 color: #ffeb3b;
 }
-.aside-col {
-/*padding-top: 11px;*/
+@media only screen and (min-width: 992px) {
+	.aside-col .row {
+		height: 100%;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+
+	.aside-col .row > [class*="col-"] {
+		flex: 0;
+	}
+
+	.vk-sect {
+		position: sticky;
+		top: 10px;
+	}
 }
 @media only screen and (max-width: 575px) {
 .grid-item {

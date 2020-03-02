@@ -9,7 +9,7 @@
                 <a href="#" class="rating-mane-s2" rel="nofollow" target="_blank" title="Голосовать на McTop"><span class="ic-loveb"></span> Голос на McTop</a>
             </div>
         </div>
-        <div class="col-sm-6 col-lg-12">
+        <div class="col-sm-6 col-lg-12 vk-sect">
             <div class="right-block vk">
                 <div class="n-m">Мы в Вконтакте</div>
                 <div class="widget-vk">
