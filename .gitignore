@@ -1,0 +1,16 @@
+.idea
+/backup/
+/engine/
+/language/
+/templates/Default/
+/templates/banned.tpl
+/templates/rss.tpl
+/templates/opensearch.tpl
+/templates/.htaccess
+/uploads/
+/index.php
+/grid.xcf
+/readme.txt
+/index.html
+/robots.txt
+/list.xcf
