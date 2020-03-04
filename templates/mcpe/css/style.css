@@ -1003,7 +1003,7 @@ font-size: 11px
 input#name {
 color: #555758;
 font-size: 14px;
-background: #e7eef6;
+background: #fff;
 border-bottom: 1px solid #fff;
 border: none;
 padding: 15px;
@@ -1017,7 +1017,7 @@ outline: none
 input#loginname {
 color: #555758;
 font-size: 14px;
-background: #e7eef6;
+background: #fff;
 border-bottom: 1px solid #fff;
 border: none;
 padding: 15px;
@@ -1031,7 +1031,7 @@ outline: none
 input#loginpassword {
 color: #555758;
 font-size: 14px;
-background: #e7eef6;
+background: #fff;
 border-bottom: 1px solid #fff;
 border: none;
 padding: 15px;
@@ -1045,7 +1045,7 @@ outline: none
 input#lostname {
 color: #555758;
 font-size: 14px;
-background: #e7eef6;
+background: #fff;
 border-bottom: 1px solid #fff;
 border: none;
 padding: 15px;
@@ -1059,7 +1059,7 @@ outline: none
 input#mail {
 color: #555758;
 font-size: 14px;
-background: #e7eef6;
+background: #fff;
 border-bottom: 1px solid #fff;
 border: none;
 padding: 15px;
@@ -1073,7 +1073,7 @@ outline: none
 input#fullname {
 color: #555758;
 font-size: 14px;
-background: #e7eef6;
+background: #fff;
 border-bottom: 1px solid #fff;
 border: none;
 padding: 15px;
@@ -1087,7 +1087,7 @@ outline: none
 input#land {
 color: #555758;
 font-size: 14px;
-background: #e7eef6;
+background: #fff;
 border-bottom: 1px solid #fff;
 border: none;
 padding: 15px;
@@ -1668,6 +1668,12 @@ padding: 4px 0!important
 .comments-tree-list {
 	list-style: none;
 }
+@media only screen and (max-width: 700px) {
+    .comments-tree-list {
+        padding: 0 0 0 12px;
+    }
+}
+
 .comment {
 width: 100%;
 background: #fff;
@@ -1712,6 +1718,7 @@ display: -webkit-inline-box
 	flex-wrap: wrap;
 	margin: 0 0 10px;
 }
+
 .com_user-info {
 	width: calc(100% - 75px);
 }
@@ -1720,7 +1727,7 @@ display: -webkit-inline-box
 }
 .com_info .avatar {
 float: none;
-width: auto;
+width: 60px;
 margin: 0 15px 0 0;
 }
 .com_info .name {
@@ -1734,6 +1741,16 @@ color: #000!important
 	align-items: center;
 	justify-content: flex-end;
 	flex-wrap: wrap;
+}
+@media only screen and (max-width: 500px) {
+    .com_user {
+        font-size: 12px;
+        margin: 0
+    }
+
+    .com_info .meta-sect {
+        justify-content: flex-start;
+    }
 }
 .com_info .meta-sect .rate {
 	margin: 0 25px 0 0;
@@ -1762,6 +1779,7 @@ ul.com_tools {
 	list-style: none;
 	padding: 0;
 	display: flex;
+    flex-wrap: wrap;
 }
 ul.com_tools a {
 	font-size: 0.8rem;
@@ -1771,7 +1789,7 @@ ul.com_tools a:hover {
 	text-decoration: none;
 }
 ul.com_tools li {
-	margin: 0 15px 0 0;
+	margin: 0 15px 5px 0;
 	display: flex;
 	align-items: center;
 }
@@ -1810,7 +1828,7 @@ float: right
 .com_content {
 width: 100%;
 display: -webkit-inline-box;
-margin-top: 15px;
+margin-top: 8px;
 padding: 12px 5px;
 border-top: 1px solid #eef3fa
 }
@@ -1861,14 +1879,15 @@ color: #bac5d8
 span.com_online {
 color: #fff!important;
 background: linear-gradient(to right, #4f6fdc, #4798ee);
-padding: 8px 23px;
+padding: 4px 5px;
 border-radius: 100px;
 margin-left: 0;
-display: flex;
-margin-left: -5px;
+display: block;
 margin-top: -10px;
 font-size: 11px;
-box-shadow: 0 10px 65px 0 #ccd4e0
+box-shadow: 0 10px 65px 0 #ccd4e0;
+max-width: 100%;
+text-align: center;
 }
 li.edit_btn {
 padding: 0 8px
@@ -2889,4 +2908,29 @@ font-weight: 700; font-size: 18px; background-color: #2baa31; color: #fff;}
 
 .addcomment .c-captcha > input {
 	height: 46px;
+}
+
+@media only screen and (max-width: 560px) {
+    .addcomment .form_submit {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form_submit button[type="submit"] {
+        margin: 15px 0 0;
+    }
+
+    .com_info {
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .com-inputs {
+        flex-direction: column;
+    }
+
+    .com-inputs .combo_field {
+        margin: 0 0 5px;
+    }
 }
